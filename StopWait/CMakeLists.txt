@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.10)
+project(StopWait)
+
+SET(CMAKE_C_COMPTLER GCC)
+set(CMAKE_CXX FLAGS -fexec-charset=GBK)
+add_definitions(-std=c++11)
+INCLUDE_DIRECTORIES()
+aux_source_directory()
+SET(EXECUTABLE_OUTPUT_PATH )
+ADD_EXECUTABLE()
+FIND_LIBRARY()
